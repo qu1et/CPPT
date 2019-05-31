@@ -1,0 +1,94 @@
+html {
+    height: 100%;
+}
+
+.log-sign-add {
+    background: linear-gradient(45deg, #00A8C5,#FFFF7E);
+    background-repeat: no-repeat;
+}
+
+.article,
+.archive {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #fff;
+}
+
+.logo {
+    display: block;
+    width: 318px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.one-post.folded .article-author {
+    display: none;
+}
+
+.one-post.folded .article-created-date {
+    display: none;
+}
+
+.one-post.folded .article-text {
+    display: none;
+}
+
+.one-post {
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.one-post-shadow {
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    background: #000;
+    z-index: -1;
+    opacity: 0;
+}
+
+footer {
+    display: none;
+}
+
+a {
+    color: #d1df19;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.article-author {
+    width: 50%;
+    float: left;
+}
+
+.article-created-date .btn {
+    text-align: right;
+}
+
+.footer {
+    display: flex;
+}
+
+.about-author {
+    color: #000;
+}
+
+.contacts {
+    margin-left: auto;
+}
+
+.add {
+    font-family: 'Roboto slab', serif;
+}
+
+.header img {
+    width: 400px;
+    height: auto;
+    margin-left: 400px;
+}
