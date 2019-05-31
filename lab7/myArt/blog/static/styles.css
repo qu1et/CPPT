@@ -1,0 +1,158 @@
+html {
+    height: 100%;
+}
+
+.log-sign-add {
+    background: linear-gradient(45deg, #00A8C5,#FFFF7E);
+    background-repeat: no-repeat;
+}
+
+.article,
+.archive {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #fff;
+}
+
+.logo {
+    display: block;
+    width: 318px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.one-post.folded .article-author {
+    display: none;
+}
+
+.one-post.folded .article-created-date {
+    display: none;
+}
+
+.one-post.folded .article-text {
+    display: none;
+}
+
+.one-post {
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.one-post-shadow {
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    background: #000;
+    z-index: -1;
+    opacity: 0;
+}
+
+footer {
+    display: none;
+}
+
+a {
+    color: #d1df19;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.article-author {
+    width: 50%;
+    float: left;
+}
+
+.article-created-date .btn {
+    text-align: right;
+}
+
+.footer {
+    display: flex;
+}
+
+.about-author {
+    color: #000;
+}
+
+.contacts {
+    margin-left: auto;
+}
+
+.add {
+    font-family: 'Roboto slab', serif;
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+.content textarea {
+    resize: none;
+    border: none;
+    border-radius: 2em;
+    box-shadow: 10px 7px 17px  rgb(29, 29, 29);
+    padding: 0 20px;
+}
+
+.content input[type=text], input[type=password] {
+    border: none;
+    border-radius: 2em;
+    box-shadow: 10px 7px 17px  rgb(29, 29, 29);
+    height: 150%;
+    padding-left: 8px;
+}
+
+.content input[type=submit], button[type=submit] {
+    margin: 5px 90px;
+    width: 50%;
+    height: 90%;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    border-radius: 40px;
+    background: transparent;
+    border: 1px solid #41e7c6;
+    color: #000;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    box-shadow: 20px 16px 30px rgb(29, 29, 29);
+    background: rgb(153, 240, 222, 0.3);
+    margin-top: 15px;
+}
+
+.content {
+    position: absolute;
+    background-color: rgb(248, 240, 240, 0.6);
+    width: 750px;
+    height: 640px;
+    margin-left: auto;
+    border-radius: 1.5em;
+    margin-left: 300px;
+}
+
+.add-article {
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    left: 185px;
+    top: 150px;
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: repeat(3, 20%);
+    grid-row-gap: 16%;
+}
+
+label {
+    text-align: start;
+    margin-right: 5px;
+    opacity: 0.6;
+}
